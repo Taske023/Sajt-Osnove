@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css-stilizacija/kontakt.css" />
+    <link rel="stylesheet" href="../css-stilizacija/komponente.css" />
+    <link rel="stylesheet" href="../css-stilizacija/phone.css" />
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+    <title>Kontaktirajte nas | Odgajivačnica Tadija Moćević</title>
+  </head>
+  <body>
+    <nav class="navigacija">
+      <div class="kontejner-flex">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <img src="assets/logo.png" alt="Logo kompanije" />
+          </a>
+        </div>
+        <div class="hamburger-menu-ikonica">
+          <img src="assets/menu.png" alt="hamburger-meni-ikonica" />
+        </div>
+        <div class="navigacioni-meni">
+          <a href="index.html" class="navigacioni-link">Pocetna</a>
+          <a href="omeni.html" class="navigacioni-link">O nama</a>
+          <a href="friend-shop.html" class="navigacioni-link">Friend Shop</a>
+          <a href="kontakt.html" class="navigacioni-link">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+    <section id="kontakt-forma">
+      <div class="kontejner">
+        <div class="flex-omotac">
+          <form action="" id="forma">
+            <label for="ime" class="form-label">Ime</label>
+            <input type="text" class="form-input" id="ime" />
+            <label for="prezime" class="form-label">Prezime</label>
+            <input type="text" class="form-input" id="prezime" />
+            <label for="brojTelefona" class="form-label">Broj Telefona</label>
+            <input type="tel" class="form-input" id="brojTelefona" />
+            <label for="checkbox" class="form-label"
+              >Koje rase biste voleli da viditie kod nas?</label
+            >
+            <input type="checkbox" id="staford" name="rasa" value="staford" />
+            <label for="staford">Staford</label><br />
+            <input type="checkbox" id="bigl" name="rasa" value="bigl" />
+            <label for="bigl">Bigl</label><br />
+            <input type="checkbox" id="pudla" name="rasa" value="pudla" />
+            <label for="pudla">Pudla</label><br />
+            <input type="checkbox" id="haski" name="rasa" value="haski" />
+            <label for="haski">Haski</label><br />
+
+            <input
+              type="submit"
+              value="Pošalji"
+              class="glavno-dugme bonus-margin"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="kontejner">
+        <div class="footer-glavni">
+          <div class="kontakt-info">
+            <p>Broj telefona:</p>
+            <br />
+            <a href="tel:+381691858515">069-185-8515</a>
+            <br />
+            <p>Email:</p>
+            <br />
+            <a href="mailto:tadijamocevic@gmail.com">tadijamocevic@gmail.com</a>
+          </div>
+          <div class="footer-menu">
+            <a href="index.html" class="footer-link">Pocetna</a>
+            <a href="omeni.html" class="footer-link">O nama</a>
+            <a href="friend-shop.html" class="footer-link">Friend Shop</a>
+            <a href="kontakt.html" class="footer-link">Kontakt</a>
+          </div>
+        </div>
+        <div class="footer-pravni-tekst">
+          <p>Sva prava zadrzava Tadija Moćević &copy; 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- servis koji mora da se koristi da bi forma zapravo radila -->
+    <script src="script.js"></script>
+  </body>
+</html>
